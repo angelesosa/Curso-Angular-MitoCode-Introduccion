@@ -1,2 +1,5 @@
 <!--<app-persona></app-persona>-->
-<app-perro [nombre]="nombrePerro"></app-perro>
+<app-perro [nombre]="nombrePerro" (emisor)="recibirLadrido($event)"></app-perro>
+
+<br>
+Recibido del componente Perro esto : {{mensaje}}

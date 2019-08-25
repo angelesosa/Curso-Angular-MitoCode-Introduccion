@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   nombrePerro = 'Firulais';
+  mensaje : string;
+
+  recibirLadrido(e : any){
+    this.mensaje = e;
+  }
 }
