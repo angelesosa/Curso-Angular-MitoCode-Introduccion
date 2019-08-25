@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class PersonaComponent implements OnInit {
 
   nombre: string;
+  apellido: string;
 
   constructor() { }
 
